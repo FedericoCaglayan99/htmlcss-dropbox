@@ -374,3 +374,39 @@ button {
   margin-top: 3em;
   margin-bottom: 2em;
 }
+
+
+.section-wrapper {
+  text-align: center;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.img-divs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 65%;
+  margin: 0 auto;
+}
+
+.items {
+  background: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+.internal-image {
+  margin-bottom: 15px;
+  width: 75%;
+}
+
+.items p {
+  font-size: 1rem;
+  color: black;
+  line-height: 1.5;
+  
+}
+.items h2 {
+  margin-bottom: 30px;
+}
